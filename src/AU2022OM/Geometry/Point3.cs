@@ -1,7 +1,7 @@
 using AU2022OM.Core;
 
 namespace AU2022OM.Geometry{
-    public class Point3: ObjectBase{
+    public class Point3: GeometryBase {
 
         public double X { get; set; }
         public double Y { get; set; }
