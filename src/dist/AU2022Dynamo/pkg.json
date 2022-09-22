@@ -1,0 +1,20 @@
+{
+  "license": "MIT",
+  "file_hash": null,
+  "name": "AU2022Dynamo",
+  "version": "1.0.0",
+  "description": "Dynamo Package for AU2022 presentation",
+  "group": "",
+  "keywords": null,
+  "dependencies": [],
+  "contents": "",
+  "engine_version": "2.13",
+  "engine": "dynamo",
+  "engine_metadata": "",
+  "site_url": "",
+  "repository_url": "",
+  "contains_binaries": true,
+  "node_libraries": [
+    "AU2022Dynamo, Version=1.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
