@@ -93,5 +93,6 @@
     <!--Copying to Package Folder-->
     <Copy SourceFiles="@(SourcePackage)" Condition="Exists($(DynamoCore2_15))" DestinationFolder="$(DynamoCore2_15)\$(PackageName)\%(RecursiveDir)" />
     <Copy SourceFiles="@(SourcePackage)" Condition="Exists($(DynamoRevit2_12))" DestinationFolder="$(DynamoRevit2_12)\$(PackageName)\%(RecursiveDir)" />
+    <Exec Command="rd /s /q $(SolutionDir)dist" />
   </Target>
 </Project>
