@@ -349,4 +349,4 @@ healthchecksdb
 MigrationBackup/
 
 # Dynamo Package dist folder
-[Dd]ist/
+**dist\**\*
