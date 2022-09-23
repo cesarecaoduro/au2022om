@@ -33,7 +33,6 @@ namespace Elements
             Rectangle rBaseTranslated = rBase.Translate(placement.X, placement.Y, placement.Z) as Rectangle;
 
             var solid = rBaseTranslated.ExtrudeAsSolid(-depth);
-            
 
             var jsonOptions = new JsonSerializerOptions()
             {

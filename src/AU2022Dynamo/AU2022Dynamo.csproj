@@ -104,6 +104,7 @@
   <PropertyGroup>
     <PackageName>AU2022Dynamo</PackageName>
     <VersionCore2_15Folder>2.15</VersionCore2_15Folder>
+    <VersionCore2_16Folder>2.16</VersionCore2_16Folder>
     <VersionRevitFolder2_12>2.12</VersionRevitFolder2_12>
     <PackageFolder>$(SolutionDir)dist\$(PackageName)\</PackageFolder>
     <BinFolder>$(PackageFolder)bin\</BinFolder>
@@ -134,10 +135,12 @@
     </ItemGroup>
     <PropertyGroup>
       <DynamoCore2_15>$(AppData)\Dynamo\Dynamo Core\$(VersionCore2_15Folder)\packages</DynamoCore2_15>
+      <DynamoCore2_16>$(AppData)\Dynamo\Dynamo Core\$(VersionCore2_16Folder)\packages</DynamoCore2_16>
       <DynamoRevit2_12>$(AppData)\Dynamo\Dynamo Revit\$(VersionRevitFolder2_12)\packages</DynamoRevit2_12>
     </PropertyGroup>
     <!--Copying to Package Folder-->
     <Copy SourceFiles="@(SourcePackage)" Condition="Exists($(DynamoCore2_15))" DestinationFolder="$(DynamoCore2_15)\$(PackageName)\%(RecursiveDir)" />
+    <Copy SourceFiles="@(SourcePackage)" Condition="Exists($(DynamoCore2_16))" DestinationFolder="$(DynamoCore2_16)\$(PackageName)\%(RecursiveDir)" />
     <Copy SourceFiles="@(SourcePackage)" Condition="Exists($(DynamoRevit2_12))" DestinationFolder="$(DynamoRevit2_12)\$(PackageName)\%(RecursiveDir)" />
     <Exec Command="rd /s /q $(SolutionDir)dist" />
   </Target>

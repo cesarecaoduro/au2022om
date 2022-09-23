@@ -1,5 +1,6 @@
 using AU2022OM.Core;
 
+// Point3.cs
 namespace AU2022OM.Geometry{
     public class Point3: GeometryBase {
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
+// ElementBase.cs
 namespace AU2022OM.Core
 {
     public partial class ElementBase : ObjectBase
