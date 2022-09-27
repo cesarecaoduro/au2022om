@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AU2022OM", "AU2022OM\AU2022
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AU2022Dynamo", "AU2022Dynamo\AU2022Dynamo.csproj", "{29E5E05C-AA29-4660-84F1-2312362A6A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AU2022ConsoleIFCWriter", "AU2022ConsoleIFCWriter\AU2022ConsoleIFCWriter.csproj", "{48577023-5B6E-43CB-9CA7-26A871CA5D4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{29E5E05C-AA29-4660-84F1-2312362A6A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29E5E05C-AA29-4660-84F1-2312362A6A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29E5E05C-AA29-4660-84F1-2312362A6A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48577023-5B6E-43CB-9CA7-26A871CA5D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48577023-5B6E-43CB-9CA7-26A871CA5D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48577023-5B6E-43CB-9CA7-26A871CA5D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48577023-5B6E-43CB-9CA7-26A871CA5D4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

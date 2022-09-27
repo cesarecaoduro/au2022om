@@ -427,7 +427,7 @@
     {
       "Start": "c50df063786d49faa0a13bb8d818936c",
       "End": "1477c266aed1425c86996da372229333",
-      "Id": "a6df68b4197a46ac90a624480faaf343",
+      "Id": "499a5faabc794284b6cd6d48bf8a1497",
       "IsHidden": "False"
     },
     {
@@ -534,7 +534,7 @@
       "HasRunWithoutCrash": true,
       "IsVisibleInDynamoLibrary": true,
       "Version": "2.15.0.5383",
-      "RunType": "Automatic",
+      "RunType": "Manual",
       "RunPeriod": "1000"
     },
     "Camera": {
@@ -558,8 +558,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -993.68726562097959,
-        "Y": -193.94895815417556
+        "X": -987.01325801472922,
+        "Y": -191.02907982644095
       },
       {
         "Name": "Footing.Create",
@@ -568,8 +568,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -336.14767751747138,
-        "Y": 321.48930893525454
+        "X": -592.33592600820009,
+        "Y": -192.56101465708269
       },
       {
         "Name": "Data.ParseJSON",
@@ -673,8 +673,8 @@
       }
     ],
     "Annotations": [],
-    "X": 380.41967275951157,
-    "Y": 119.4708908944001,
-    "Zoom": 0.20636838850671096
+    "X": 1423.1016140334018,
+    "Y": 332.04610172271452,
+    "Zoom": 1.1986800842881309
   }
 }
