@@ -20,7 +20,7 @@ var project = new IfcProject(facility, "My Project", IfcUnitAssignment.Length.Me
 };
 
 
-var foundations = new IfcBridgePart(
+var footing = new IfcBridgePart(
     bridge, null, null
 );
 
@@ -51,8 +51,8 @@ footingType.RepresentationMaps.Add(
     )
 );
 
-IfcFooting footing = new(
-    foundations,
+IfcFooting ifcFooting = new(
+    footing,
     null,
     productRep
     )

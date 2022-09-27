@@ -1,0 +1,22 @@
+{
+  "footing1": {
+    "width": 1,
+    "length": 1,
+    "depth": 1,
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "footing2": {
+    "width": 1,
+    "length": 1,
+    "depth": 1,
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}
